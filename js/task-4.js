@@ -8,7 +8,7 @@ nameForm.addEventListener('submit', (evt) => {
     };
     if (nameForm.elements.email.value === ``|| nameForm.elements.password.value === ``) {
           alert ('All form fields must be filled in')
-    };
+    }
             console.log(formData)
     nameForm.reset()
 });
